@@ -1,0 +1,45 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "productName": "Iphone 12 mini",
+            "price": "900",
+            "description": "Iphone 12 mini smartphone was launched on 13th October 2020. The phone comes with",
+            "id_cate": 1
+        },
+        {
+            
+            "id": 2,
+            "productName": "Galaxy Note 20 Utral",
+            "price": "1200",
+            "description": "The Galaxy Note 20 Utral boasts a huge 6.9inch display with a dynamic 120Hz refre",
+            "id_cate": 1
+
+        },
+        {
+            
+            "id": 3,
+            "productName": "Huawei Mate 30 pro",
+            "price": "1400",
+            "description": "Huawei MAte 30 pro is powered by a 1.86Hz octa-core HiSilicon kirin 900 processor",
+            "id_cate": 1
+
+        }
+    ],
+
+    
+        "category":[
+            {
+                "id": 1,
+                "name": "Điện thoại"
+            },
+            {
+              "id": 2,
+              "name":"Laptop"  
+            }
+        ]
+    
+}
+
+
+
