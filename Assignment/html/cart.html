@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <link rel="stylesheet" href="../public/css/admin.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- topbar -->
+      <div class="header-topbar">
+        <div class="container">
+          <div class="topbar-layout">
+            <div class="topbar-left">
+              <span class="underline"
+                >Tài khoản OpenAI - ChatGPT (Có sẵn 5$)</span
+              >
+            </div>
+            <div class="topbar-right">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/topbar1.svg"
+                    class="w17c5"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Hướng dẫn mua hàng</a>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/topbar2.svg"
+                    class="w17c5"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Ưu đãi khách hàng</a>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/topbar3.svg"
+                    class="w17c5"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Thông tin liên hệ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+      <div class="header-navbar">
+        <div class="container">
+          <div class="navbar-layout">
+            <!-- top -->
+            <div class="navbar-top">
+              <!-- logo -->
+              <div class="logo">
+                <div class="image">
+                  <img src="../public/images/logo.svg" alt="" />
+                </div>
+                <a href="#">Account Shop</a>
+              </div>
+              <!-- search -->
+              <div class="search">
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Tìm kiếm sản phẩm"
+                />
+                <div class="search-icon">
+                  <img src="../public/images/search.svg" class="w17c5" alt="" />
+                </div>
+              </div>
+              <!-- login -->
+              <div class="header-account">
+                <!-- no login -->
+                <div class="account-action">
+                  <div class="account-icon">
+                    <img src="../public/images/user.svg" class="w17c5" />
+                  </div>
+                  <a href="#!">Đăng nhập / Đăng ký</a>
+                </div>
+                <!-- ok login -->
+              </div>
+              <!-- cart -->
+              <div class="header-cart">
+                <div class="icon-cart">
+                  <img src="../public/images/cart.svg" class="h17c5" alt="" />
+                </div>
+                <a>Giỏ hàng</a>
+                <span>0</span>
+              </div>
+            </div>
+            <!-- bot -->
+            <div class="navbar-bot">
+              <div class="item">
+                <div class="icon">
+                  <img class="w21h17c5" src="../public/images/eye.svg" alt="" />
+                </div>
+                <a class="underline">Sản phẩm bạn vừa xem</a>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img class="w21h17c5" src="../public/images/hot.svg" alt="" />
+                </div>
+                <a class="underline">Sản phẩm mua nhiều</a>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img
+                    class="w21h17c5"
+                    src="../public/images/discount.svg"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Sản phẩm khuyến mãi</a>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img class="w21h17c5" src="../public/images/map.svg" alt="" />
+                </div>
+                <a class="underline">Đại lý giao dịch</a>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img class="w21h17c5" src="../public/images/pay.svg" alt="" />
+                </div>
+                <a class="underline">Hình thức thanh toán</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- botbar -->
+      <div class="header-botbar">
+        <div class="container">
+          <div class="navbar-botbar">
+            <div class="botbar-left">
+              <div>
+                <img src="../public/images/menu.svg" class="w17c5" alt="" />
+                <span>Danh mục sản phẩm</span>
+              </div>
+            </div>
+            <div class="botbar-right">
+              <div class="item">
+                <div class="image">
+                  <img src="../public/images/Nap-thesvg-30724.svg" alt="" />
+                </div>
+                <a class="underline">Thủ thuật & Tin tức</a>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/Gioi-thieu-ban-be-87652.svg"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Giới thiệu bạn bè</a>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/Lien-he-hop-tac-33199.svg"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Liên hệ hợp tác</a>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/Uu-dai-khach-vip-79547.svg"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Ưu đãi khách VIP</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- cart -->
+    <div class="cart">
+      <div class="container">
+        <div class="cart-status">
+          <span class="active">Giỏ hàng</span>
+          <span>Xác nhận</span>
+          <span>Thanh toán</span>
+        </div>
+        <div class="cart-layout">
+          <div class="cart-left">
+            <div class="cart-title">
+              <h2>Giỏ hàng</h2>
+              <span>(2 sản phẩm)</span>
+            </div>
+            <div class="cart-list">
+              <div class="cart-empty">
+                <h3>Giỏ hàng trống !</h3>
+                <p>
+                  Thêm sản phẩm vào giỏ và quay lại trang này để thanh toán nha
+                  bạn
+                </p>
+                <div class="image">
+                  <img
+                    src="https://cdn.divineshop.vn/static/4e0db8ffb1e9cac7c7bc91d497753a2c.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- <div class="cart-item">
+                <div class="cart-image">
+                  <img
+                    src="https://cdn.divineshop.vn/image/catalog/OpenAI - ChatGPT-37620.jpg?hash=1672200973"
+                    alt=""
+                  />
+                </div>
+                <div class="cart-info">
+                  <div class="cart-group">
+                    <div class="cart-row">
+                      <a class="name underline"
+                        >Tài khoản OpenAI - ChatGPT (Có sẵn 5$)
+                      </a>
+                    </div>
+                    <div class="cart-row cart-quantity">
+                      <div class="div">
+                        <span class="product-minus">-</span>
+                        <span class="product-quantity">1</span>
+                        <span class="product-plus">+</span>
+                      </div>
+                    </div>
+                    <div class="cart-row cart-price">
+                      <div class="price-new">387.450đ</div>
+                      <div class="cart-flex">
+                        <div class="product-discount">-37%</div>
+                        <div class="price-old">615.000đ</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart-bot">
+                    <div>
+                      <div class="svg">
+                        <svg
+                          class="od Cb Da w17c5"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                        >
+                          <path
+                            d="M509.5 184.6L458.9 32.8C452.4 13.2 434.1 0 413.4 0H98.6c-20.7 0-39 13.2-45.5 32.8L2.5 184.6c-1.6 4.9-2.5 10-2.5 15.2V464c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V199.8c0-5.2-.8-10.3-2.5-15.2zM32 199.8c0-1.7.3-3.4.8-5.1L83.4 42.9C85.6 36.4 91.7 32 98.6 32H240v168H32v-.2zM480 464c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V232h448v232zm0-264H272V32h141.4c6.9 0 13 4.4 15.2 10.9l50.6 151.8c.5 1.6.8 3.3.8 5.1v.2z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <h4>Tình trạng: <span>Còn hàng</span></h4>
+                    </div>
+                    <div class="cart-delete">
+                      <div class="svg">
+                        <svg
+                          class="od Cb Da w17c5"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <path
+                            d="M32 464a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128H32zm272-256a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zM432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="cart-right">
+            <ul>
+              <li>
+                <a
+                  >Bạn có mã giới thiệu
+                  <div class="svg">
+                    <svg
+                      class="od b Hb Ba oa fe w21h21"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      data-metatip="true"
+                    >
+                      <path
+                        d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a
+                  >Bạn có mã ưu đãi
+                  <div class="svg">
+                    <svg
+                      class="od b Hb Ba oa fe w21h21"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M96 224c53 0 96-43 96-96s-43-96-96-96S0 75 0 128s43 96 96 96zm0-144c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zm192 208c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96zm0 144c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm93.9-381.2L57.2 475c-2.3 3.1-5.9 5-9.7 5H12c-9.6 0-15.3-10.7-10-18.7L327.2 37c2.3-3.1 5.9-5 9.7-5H372c9.6 0 15.3 10.8 9.9 18.8z"
+                      ></path>
+                    </svg></div
+                ></a>
+              </li>
+              <li>
+                <a
+                  >Bạn muốn tặng bạn bè
+                  <div class="svg">
+                    <svg
+                      class="od b Hb Ba oa fe w21h21"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M464 144h-26.1c6.2-12.1 10.1-25.5 10.1-40 0-48.5-39.5-88-88-88-41.6 0-68.5 21.3-103 68.3-34.5-47-61.4-68.3-103-68.3-48.5 0-88 39.5-88 88 0 14.5 3.8 27.9 10.1 40H48c-26.5 0-48 21.5-48 48v128c0 8.8 7.2 16 16 16h16v107.4c0 29 23.6 52.6 52.6 52.6h342.8c29 0 52.6-23.6 52.6-52.6V336h16c8.8 0 16-7.2 16-16V192c0-26.5-21.5-48-48-48zM232 448H84.6c-2.5 0-4.6-2-4.6-4.6V336h112v-48H48v-96h184v256zm-78.1-304c-22.1 0-40-17.9-40-40s17.9-40 40-40c22 0 37.5 7.6 84.1 77l2 3h-86.1zm122-3C322.5 71.6 338 64 360 64c22.1 0 40 17.9 40 40s-17.9 40-40 40h-86.1l2-3zM464 288H320v48h112v107.4c0 2.5-2 4.6-4.6 4.6H280V192h184v96z"
+                      ></path>
+                    </svg></div
+                ></a>
+              </li>
+              <li>
+                <a>Thanh toán</a>
+              </li>
+              <li>
+                <a
+                  >Tổng giá trị thanh toán
+                  <span style="font-weight: 500">596.000đ</span></a
+                >
+              </li>
+            </ul>
+            <ul class="ul">
+              <li>
+                <a>Tổng giá trị phải thanh toán <span>569.000đ</span></a>
+              </li>
+              <li>
+                <a>Số dư hiện tại <span>0đ</span></a>
+              </li>
+              <li>
+                <a>Số tiền cần nạp thêm <span>0đ</span></a>
+              </li>
+            </ul>
+            <div class="cart-btn" style="--bg: #2579f2">
+              Đăng nhập để thanh toán
+            </div>
+            <p class="cart-p">Quét mã. Thanh toán. Không cần đăng nhập.</p>
+            <div class="cart-btn" style="--bg: #ae2070">
+              Mua siêu tốc với momo
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="f-toplayout">
+            <img
+              src="https://cdn.divineshop.vn/static/b77a2122717d76696bd2b87d7125fd47.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.divineshop.vn/static/72a3a36fc7c66085b3f442940ba45fde.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.divineshop.vn/static/464c7c79044dea88e86adf0e1b9c064c.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.divineshop.vn/static/ddb866eb1214c914ea62417879046b99.svg"
+              alt=""
+            />
+            <span>và nhiều hình thức khác</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-main">
+        <div class="container">
+          <div class="footer-icon">
+            <img
+              src="https://cdn.divineshop.vn/static/4ba68c7a47305b454732e1a9e9beb8a1.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.divineshop.vn/static/20334129395885adefc2e5217043f670.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.divineshop.vn/static/4ae438165f9d5ea0fc6ff3da6051f938.svg"
+              alt=""
+            />
+          </div>
+          <div class="footer-layout">
+            <div class="row">
+              <div class="footer-name">GIỚI THIỆU</div>
+              <ul>
+                <li><a href="" class="underline">Game bản quyền là gì?</a></li>
+                <li><a href="" class="underline">Giới thiệu Divine Shop</a></li>
+                <li><a href="" class="underline">Điều khoản dịch vụ</a></li>
+                <li><a href="" class="underline">Chính sách bảo mật</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <div class="footer-name">TÀI KHOẢN</div>
+              <ul>
+                <li><a href="" class="underline">Đăng nhập</a></li>
+                <li><a href="" class="underline">Đăng ký</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <div class="footer-name">LIÊN HỆ</div>
+              <ul>
+                <li>
+                  <a href="" class="underline">Hotline tự động 1900 633 305</a>
+                </li>
+                <li><a href="" class="underline">Liên hệ Hỗ trợ</a></li>
+                <li><a href="" class="underline">Chat với CSKH</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <img
+                src="https://images.dmca.com/Badges/_dmca_premi_badge_2.png?ID=18522dc6-fdd6-4b49-ab40-395a79849050"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

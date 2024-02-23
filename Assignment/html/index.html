@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <link rel="stylesheet" href="../public/css/admin.css" />
+    <title>Main</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- topbar -->
+      <div class="header-topbar">
+        <div class="container">
+          <div class="topbar-layout">
+            <div class="topbar-left">
+              <span class="underline"
+                >Tài khoản OpenAI - ChatGPT (Có sẵn 5$)</span
+              >
+            </div>
+            <div class="topbar-right">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/topbar1.svg"
+                    class="w17c5"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Hướng dẫn mua hàng</a>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/topbar2.svg"
+                    class="w17c5"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Ưu đãi khách hàng</a>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/topbar3.svg"
+                    class="w17c5"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Thông tin liên hệ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+      <div class="header-navbar">
+        <div class="container">
+          <div class="navbar-layout">
+            <!-- top -->
+            <div class="navbar-top">
+              <!-- logo -->
+              <div class="logo">
+                <div class="image">
+                  <img src="../public/images/logo.svg" alt="" />
+                </div>
+                <a href="#">Account Shop</a>
+              </div>
+              <!-- search -->
+              <div class="search">
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Tìm kiếm sản phẩm"
+                />
+                <div class="search-icon">
+                  <img src="../public/images/search.svg" class="w17c5" alt="" />
+                </div>
+                <ul class="search-product">
+                  <li>
+                    <a href="" class="underline"
+                      >Tài khoản OpenAI - ChatGPT (Có sẵn 5$)</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="underline"
+                      >Phần mềm thiết kế AĐôBe Full App</a
+                    >
+                  </li>
+                  <li><a href="" class="underline">Nâng cấp AutoDesk</a></li>
+                  <li>
+                    <a href="" class="underline">Gia hạn Youtube Premium</a>
+                  </li>
+                  <li>
+                    <a href="" class="underline">Tài khoản Netflix Premium</a>
+                  </li>
+                  <li>
+                    <a href="" class="underline">Windows, Office bản quyền</a>
+                  </li>
+                  <li><a href="" class="underline">Quizlet Plus</a></li>
+                </ul>
+              </div>
+              <!-- login -->
+              <div class="header-account">
+                <!-- no login -->
+                <div class="account-action">
+                  <!-- <div class="account-guest">
+                    <div class="account-guest">
+                      <div class="account-icon">
+                        <img src="../public/images/user.svg" class="w17c5" />
+                      </div>
+                      <a href="#!">Đăng nhập / Đăng ký</a>
+                    </div>
+                  </div> -->
+                  <div class="account-user">
+                    <div class="account-group">
+                      <div class="account-avatar">
+                        <img
+                          src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/08/01/ssstikio_1690554354361-594065902.jpeg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="account-name">kanisdev</div>
+                    </div>
+                    <ul class="submenu">
+                      <li><a>Số dư tài khoản</a></li>
+                      <li><a>Quản lý đơn hàng</a></li>
+                      <li><a>Lịch sử đơn hàng</a></li>
+                      <li><a>Sản phẩm yêu thích</a></li>
+                      <li><a>Đăng xuất</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- ok login -->
+              </div>
+              <!-- cart -->
+              <div class="header-cart">
+                <div class="icon-cart">
+                  <img src="../public/images/cart.svg" class="h17c5" alt="" />
+                </div>
+                <a>Giỏ hàng</a>
+                <span>0</span>
+              </div>
+            </div>
+            <!-- bot -->
+            <div class="navbar-bot">
+              <div class="item">
+                <div class="icon">
+                  <img class="w21h17c5" src="../public/images/eye.svg" alt="" />
+                </div>
+                <a class="underline">Sản phẩm bạn vừa xem</a>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img class="w21h17c5" src="../public/images/hot.svg" alt="" />
+                </div>
+                <a class="underline">Sản phẩm mua nhiều</a>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img
+                    class="w21h17c5"
+                    src="../public/images/discount.svg"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Sản phẩm khuyến mãi</a>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img class="w21h17c5" src="../public/images/map.svg" alt="" />
+                </div>
+                <a class="underline">Đại lý giao dịch</a>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img class="w21h17c5" src="../public/images/pay.svg" alt="" />
+                </div>
+                <a class="underline">Hình thức thanh toán</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- botbar -->
+      <div class="header-botbar">
+        <div class="container">
+          <div class="navbar-botbar">
+            <div class="botbar-left">
+              <div>
+                <img src="../public/images/menu.svg" class="w17c5" alt="" />
+                <span>Danh mục sản phẩm</span>
+              </div>
+            </div>
+            <div class="botbar-right">
+              <div class="item">
+                <div class="image">
+                  <img src="../public/images/Nap-thesvg-30724.svg" alt="" />
+                </div>
+                <a class="underline">Thủ thuật & Tin tức</a>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/Gioi-thieu-ban-be-87652.svg"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Giới thiệu bạn bè</a>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/Lien-he-hop-tac-33199.svg"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Liên hệ hợp tác</a>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="../public/images/Uu-dai-khach-vip-79547.svg"
+                    alt=""
+                  />
+                </div>
+                <a class="underline">Ưu đãi khách VIP</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- banner -->
+    <div class="banner">
+      <div class="container">
+        <div class="banner-layout">
+          <!-- sidebar -->
+          <div class="sidebar">
+            <ul>
+              <li>
+                <a href="#!">
+                  <img class="w21h17c5" src="../public/images/sb1.svg" alt="" />
+                  <span>Giải trí</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img class="w21h17c5" src="../public/images/sb2.svg" alt="" />
+                  <span>Làm việc</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img class="w21h17c5" src="../public/images/sb3.svg" alt="" />
+                  <span>Học tập</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img class="w21h17c5" src="../public/images/sb4.svg" alt="" />
+                  <span>Game Steam</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img class="w21h17c5" src="../public/images/sb5.svg" alt="" />
+                  <span>EA Games</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img class="w21h17c5" src="../public/images/sb6.svg" alt="" />
+                  <span>Windown, Office</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img class="w21h17c5" src="../public/images/sb7.svg" alt="" />
+                  <span>Google Drive</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img class="w21h17c5" src="../public/images/sb8.svg" alt="" />
+                  <span>Steam Wallet</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img class="w21h17c5" src="../public/images/sb9.svg" alt="" />
+                  <span>Gói Data Mobile</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img
+                    class="w21h17c5"
+                    src="../public/images/sb10.svg"
+                    alt=""
+                  />
+                  <span>Google Play, iTunes</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- slider -->
+          <div class="slider">
+            <div class="slider-icon left">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="image">
+              <img src="../public/images/slider1.jpg" alt="" />
+            </div>
+            <div class="slider-icon right">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+          </div>
+          <!-- image -->
+          <div class="banner-imgRight">
+            <div class="image">
+              <img src="../public/images/banner1.png" alt="" />
+            </div>
+            <div class="image">
+              <img src="../public/images/banner2.png" alt="" />
+            </div>
+          </div>
+          <!-- banner-imgBot -->
+          <div class="banner-imgBot">
+            <div class="image">
+              <img src="../public/images/banner3.png" alt="" />
+            </div>
+            <div class="image">
+              <img src="../public/images/banner4.png" alt="" />
+            </div>
+            <div class="image">
+              <img src="../public/images/banner5.png" alt="" />
+            </div>
+            <div class="image">
+              <img src="../public/images/banner6.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- heading -->
+    <div class="pt35">
+      <div class="heading">
+        <div class="container">
+          <div>
+            <span>Sản phẩm nổi bậc</span>
+            <button>Khám phá</button>
+          </div>
+          <p>Danh sách những sản phẩm theo xu hướng mà có thể bạn sẽ thích</p>
+        </div>
+      </div>
+    </div>
+    <!-- product -->
+    <div class="pt21">
+      <div class="product">
+        <div class="container">
+          <div class="product-layout">
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Netflix/Divine-Shop-NETFLIX-1-thang-23298.jpg?hash=1658829694"
+                  alt=""
+                />
+              </div>
+              <div class="product-name underline">
+                Tài Khoản Netflix Premium 1 tháng - Xem phim chất lượng 4k và
+                Full HD
+              </div>
+              <div class="product-other">
+                <div class="price-new">89.000đ</div>
+                <div class="price-old">260.000đ</div>
+                <div class="product-discount">-66%</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Spotify/Divine-Shop-Goi-Gia-Han-Spotify-1-Nam-40567.jpg?hash=1658742748"
+                  alt=""
+                />
+              </div>
+              <div class="product-name underline">
+                Gói gia hạn Spotify Premium 01 năm
+              </div>
+              <div class="product-other">
+                <div class="price-new">299.000đ</div>
+                <div class="price-old">590.000đ</div>
+                <div class="product-discount">-49%</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Zoom/Divine-Shop-Nang-cap-Zoom-Pro-1-thang-80331.jpg?hash=1658975559"
+                  alt=""
+                />
+              </div>
+              <div class="product-name underline">
+                Nâng cấp Tài khoản Zoom Pro 1 tháng
+              </div>
+              <div class="product-other">
+                <div class="price-new">210.000đ</div>
+                <div class="price-old">350.000đ</div>
+                <div class="product-discount">-40%</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Windows/Divine-shop-windows-10-pro-55555.jpg?hash=1658743921"
+                  alt=""
+                />
+              </div>
+              <div class="product-name underline">
+                Windows 10 Professional CD Key
+              </div>
+              <div class="product-other">
+                <div class="price-new">290.000đ</div>
+                <div class="price-old">400.000đ</div>
+                <div class="product-discount">-28%</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Youtube/Divine-Shop-YOUTUBE-NO-ADS-1-NAM-53447.jpg?hash=1658743452"
+                  alt=""
+                />
+              </div>
+              <div class="product-name underline">
+                Gia hạn YouTube Premium + YouTube Music (1 Năm)
+              </div>
+              <div class="product-other">
+                <div class="price-new">479.000đ</div>
+                <div class="price-old">6.720.000đ</div>
+                <div class="product-discount">-93%</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="https://cdn.divineshop.vn/image/catalog/Discord Nitro 3 thang-71170.jpg?hash=1672370038"
+                  alt=""
+                />
+              </div>
+              <div class="product-name underline">
+                Discord Nitro 3 tháng (Đăng kí lần đầu)
+              </div>
+              <div class="product-other">
+                <div class="price-new">165.000đ</div>
+                <div class="price-old">690.000đ</div>
+                <div class="product-discount">-76%</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="https://cdn.divineshop.vn/image/catalog/OpenAI - ChatGPT-37620.jpg?hash=1672200973"
+                  alt=""
+                />
+              </div>
+              <div class="product-name underline">
+                Tài khoản OpenAI - ChatGPT (Có sẵn 5$)
+              </div>
+              <div class="product-other">
+                <div class="price-new">99.000đ</div>
+                <div class="price-old">200.000đ</div>
+                <div class="product-discount">-50%</div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product-image">
+                <img
+                  src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Divine-Shop-Grammarly-Premium-1-Nam-35103.jpg?hash=1658742859"
+                  alt=""
+                />
+              </div>
+              <div class="product-name underline">
+                Tài khoản Grammarly Premium 1 năm
+              </div>
+              <div class="product-other">
+                <div class="price-new">490.000đ</div>
+                <div class="price-old">1.500.000đ</div>
+                <div class="product-discount">-67%</div>
+              </div>
+            </div>
+          </div>
+          <div class="more more--primary">Xem thêm</div>
+        </div>
+      </div>
+    </div>
+    <!-- heading -->
+    <div class="pt35">
+      <div class="heading">
+        <div class="container">
+          <div>
+            <span>Từ khóa nổi bậc</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- keyword -->
+    <div class="pt18">
+      <div class="container">
+        <div class="keyword">
+          <div class="item" style="--color: #3d5a80">Làm việc</div>
+          <div class="item" style="--color: #98c1d9">Giải trí</div>
+          <div class="item" style="--color: #ee6c4d">Học tập</div>
+          <div class="item" style="--color: #293241">Spotify</div>
+          <div class="item" style="--color: #545b67">Wallet</div>
+          <div class="item" style="--color: #767c85">Youtube</div>
+        </div>
+      </div>
+    </div>
+    <!-- selling -->
+    <div class="mt35">
+      <div class="selling">
+        <div class="container">
+          <div class="heading">
+            <div class="container">
+              <div>
+                <div class="highlight">
+                  <img
+                    src="../public/images/selling.svg"
+                    width="24.5px"
+                    height="24.5px"
+                    alt=""
+                  />
+                  <span>#Sản phẩm bán chạy nhất </span>
+                </div>
+                <button>Khám phá</button>
+              </div>
+            </div>
+          </div>
+          <div class="pt35">
+            <div class="product">
+              <div class="container">
+                <div class="product-layout">
+                  <div class="product-item">
+                    <div class="product-image">
+                      <img
+                        src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Netflix/Divine-Shop-NETFLIX-1-thang-23298.jpg?hash=1658829694"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-name underline">
+                      Tài Khoản Netflix Premium 1 tháng - Xem phim chất lượng 4k
+                      và Full HD
+                    </div>
+                    <div class="product-other">
+                      <div class="price-new">89.000đ</div>
+                      <div class="price-old">260.000đ</div>
+                      <div class="product-discount">-66%</div>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-image">
+                      <img
+                        src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Spotify/Divine-Shop-Goi-Gia-Han-Spotify-1-Nam-40567.jpg?hash=1658742748"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-name underline">
+                      Gói gia hạn Spotify Premium 01 năm
+                    </div>
+                    <div class="product-other">
+                      <div class="price-new">299.000đ</div>
+                      <div class="price-old">590.000đ</div>
+                      <div class="product-discount">-49%</div>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-image">
+                      <img
+                        src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Zoom/Divine-Shop-Nang-cap-Zoom-Pro-1-thang-80331.jpg?hash=1658975559"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-name underline">
+                      Nâng cấp Tài khoản Zoom Pro 1 tháng
+                    </div>
+                    <div class="product-other">
+                      <div class="price-new">210.000đ</div>
+                      <div class="price-old">350.000đ</div>
+                      <div class="product-discount">-40%</div>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-image">
+                      <img
+                        src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Windows/Divine-shop-windows-10-pro-55555.jpg?hash=1658743921"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-name underline">
+                      Windows 10 Professional CD Key
+                    </div>
+                    <div class="product-other">
+                      <div class="price-new">290.000đ</div>
+                      <div class="price-old">400.000đ</div>
+                      <div class="product-discount">-28%</div>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-image">
+                      <img
+                        src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Youtube/Divine-Shop-YOUTUBE-NO-ADS-1-NAM-53447.jpg?hash=1658743452"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-name underline">
+                      Gia hạn YouTube Premium + YouTube Music (1 Năm)
+                    </div>
+                    <div class="product-other">
+                      <div class="price-new">479.000đ</div>
+                      <div class="price-old">6.720.000đ</div>
+                      <div class="product-discount">-93%</div>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-image">
+                      <img
+                        src="https://cdn.divineshop.vn/image/catalog/Discord Nitro 3 thang-71170.jpg?hash=1672370038"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-name underline">
+                      Discord Nitro 3 tháng (Đăng kí lần đầu)
+                    </div>
+                    <div class="product-other">
+                      <div class="price-new">165.000đ</div>
+                      <div class="price-old">690.000đ</div>
+                      <div class="product-discount">-76%</div>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-image">
+                      <img
+                        src="https://cdn.divineshop.vn/image/catalog/OpenAI - ChatGPT-37620.jpg?hash=1672200973"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-name underline">
+                      Tài khoản OpenAI - ChatGPT (Có sẵn 5$)
+                    </div>
+                    <div class="product-other">
+                      <div class="price-new">99.000đ</div>
+                      <div class="price-old">200.000đ</div>
+                      <div class="product-discount">-50%</div>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-image">
+                      <img
+                        src="https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Divine-Shop-Grammarly-Premium-1-Nam-35103.jpg?hash=1658742859"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-name underline">
+                      Tài khoản Grammarly Premium 1 năm
+                    </div>
+                    <div class="product-other">
+                      <div class="price-new">490.000đ</div>
+                      <div class="price-old">1.500.000đ</div>
+                      <div class="product-discount">-67%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="more more--white">Xem thêm</div>
+        </div>
+      </div>
+    </div>
+    <!-- keyword -->
+    <!-- heading -->
+    <div class="pt35">
+      <div class="heading">
+        <div class="container">
+          <div>
+            <span>Từ khóa nổi bậc</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pt18">
+      <div class="container">
+        <div class="keyword">
+          <div
+            class="item"
+            style="--color: #fff; color: #000; border: 1px solid #eee"
+          >
+            20.000đ
+          </div>
+          <div
+            class="item"
+            style="--color: #fff; color: #000; border: 1px solid #eee"
+          >
+            50.000đ
+          </div>
+          <div
+            class="item"
+            style="--color: #fff; color: #000; border: 1px solid #eee"
+          >
+            100.000đ
+          </div>
+          <div
+            class="item"
+            style="--color: #fff; color: #000; border: 1px solid #eee"
+          >
+            200.000đ
+          </div>
+          <div
+            class="item"
+            style="--color: #fff; color: #000; border: 1px solid #eee"
+          >
+            500.000đ
+          </div>
+          <div
+            class="item"
+            style="--color: #fff; color: #000; border: 1px solid #eee"
+          >
+            1.000.000đ
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="f-toplayout">
+            <img
+              src="https://cdn.divineshop.vn/static/b77a2122717d76696bd2b87d7125fd47.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.divineshop.vn/static/72a3a36fc7c66085b3f442940ba45fde.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.divineshop.vn/static/464c7c79044dea88e86adf0e1b9c064c.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.divineshop.vn/static/ddb866eb1214c914ea62417879046b99.svg"
+              alt=""
+            />
+            <span>và nhiều hình thức khác</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-main">
+        <div class="container">
+          <div class="footer-icon">
+            <img
+              src="https://cdn.divineshop.vn/static/4ba68c7a47305b454732e1a9e9beb8a1.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.divineshop.vn/static/20334129395885adefc2e5217043f670.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.divineshop.vn/static/4ae438165f9d5ea0fc6ff3da6051f938.svg"
+              alt=""
+            />
+          </div>
+          <div class="footer-layout">
+            <div class="row">
+              <div class="footer-name">GIỚI THIỆU</div>
+              <ul>
+                <li><a href="" class="underline">Game bản quyền là gì?</a></li>
+                <li><a href="" class="underline">Giới thiệu Divine Shop</a></li>
+                <li><a href="" class="underline">Điều khoản dịch vụ</a></li>
+                <li><a href="" class="underline">Chính sách bảo mật</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <div class="footer-name">TÀI KHOẢN</div>
+              <ul>
+                <li><a href="" class="underline">Đăng nhập</a></li>
+                <li><a href="" class="underline">Đăng ký</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <div class="footer-name">LIÊN HỆ</div>
+              <ul>
+                <li>
+                  <a href="" class="underline">Hotline tự động 1900 633 305</a>
+                </li>
+                <li><a href="" class="underline">Liên hệ Hỗ trợ</a></li>
+                <li><a href="" class="underline">Chat với CSKH</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <img
+                src="https://images.dmca.com/Badges/_dmca_premi_badge_2.png?ID=18522dc6-fdd6-4b49-ab40-395a79849050"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

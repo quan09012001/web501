@@ -1,0 +1,22 @@
+{
+  "name": "shopify",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "api": "json-server --watch ./src/api/db.json"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "emailjs": "^4.0.3",
+    "json-server": "^0.17.3",
+    "moment": "^2.29.4",
+    "navigo": "^8.11.1"
+  }
+}

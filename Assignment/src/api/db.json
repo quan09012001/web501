@@ -1,0 +1,668 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Tài khoản Amazon Prime Gaming (15 ngày)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Prime Gaming-63695.jpg?hash=1672369808",
+      "price": 550000,
+      "discount": 90,
+      "categoryID": 1,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 2,
+      "productName": "Tài khoản OpenAI - ChatGPT (Có sẵn 5$)",
+      "image": "https://cdn.divineshop.vn/image/catalog/OpenAI - ChatGPT-37620.jpg?hash=1672200973",
+      "price": 150000,
+      "discount": 83,
+      "categoryID": 2,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 3,
+      "productName": "Gói nâng cấp Office 365 1 năm (1TB)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Office/Divine-Shop-Goi-Nang-Cap-Office-365-1-Nam-84521.jpg?hash=1658742827",
+      "price": 1299000,
+      "discount": 81,
+      "categoryID": 3,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 4,
+      "productName": "Tài khoản Netflix Premium for 1 User (3 Tháng)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Netflix/Divine-Shop-NETFLIX-3-Thang-85632.jpg?hash=1658743283",
+      "price": 780000,
+      "discount": 67,
+      "categoryID": 4,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 5,
+      "productName": "Gia hạn phần mềm thiết kế Full App No Cloud - 1 tháng",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Adobe/Adobe full app v2 1 thang 1-55783.jpg?hash=1693990988",
+      "price": 1600000,
+      "discount": 89,
+      "categoryID": 5,
+      "view": 0,
+      "inventory": 0
+    },
+    {
+      "id": 6,
+      "productName": "Steam Wallet Code 600 HKD (~1.872.000 VNĐ)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/600HKD-80997.png?hash=1690885725",
+      "price": 1852000,
+      "discount": 0,
+      "categoryID": 6,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 7,
+      "productName": "Windows 11 Professional CD Key",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Windows/Divine-Shop-Windows-11-Pro-222-15362.jpg?hash=1678241365",
+      "price": 400000,
+      "discount": 28,
+      "categoryID": 7,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 8,
+      "productName": "Tài khoản Google Drive 500GB (Vĩnh viễn)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Google Drive 500gb-29699.png?hash=1658458874",
+      "price": 3450000,
+      "discount": 0,
+      "categoryID": 8,
+      "view": 0,
+      "inventory": 0
+    },
+    {
+      "id": 9,
+      "productName": "Tài khoản OpenAI - ChatGPT (Có sẵn 5$)",
+      "image": "https://cdn.divineshop.vn/image/catalog/OpenAI - ChatGPT-37620.jpg?hash=1672200973",
+      "price": 200000,
+      "discount": 50,
+      "categoryID": 9,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 10,
+      "productName": "iTunes Gift Card 2 USD (US)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh 1406/New/iTunes 2.png?hash=1624934987",
+      "price": 70000,
+      "discount": 14,
+      "categoryID": 10,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 11,
+      "productName": "Tài khoản Datacamp Premium 3 tháng",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Datacamp-52631.jpg?hash=1673317992",
+      "price": 750000,
+      "discount": 73,
+      "categoryID": 1,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 12,
+      "productName": "Gói gia hạn Duolingo 2 tháng",
+      "image": "https://cdn.divineshop.vn/image/catalog/Duolingo gia hạn 2 tháng-26499.jpg?hash=1684220480",
+      "price": 400000,
+      "discount": 88,
+      "categoryID": 2,
+      "view": 0,
+      "inventory": 0
+    },
+    {
+      "id": 13,
+      "productName": "Tài khoản Notion Pro vĩnh viễn",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Notion Pro-96609-24916-25370.jpg?hash=1687925337",
+      "price": 1280000,
+      "discount": 85,
+      "categoryID": 3,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 14,
+      "productName": "Microsoft Office 2021 Home & Business for MAC",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Office/Divine-Shop-Microsoft-Office-2021-Professional-Plus-For-Mac-59098.jpg?hash=1658743145",
+      "price": 11500000,
+      "discount": 96,
+      "categoryID": 4,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 15,
+      "productName": "Tài khoản Premium Freepik 6 tháng (1 Thiết bị)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Freepik 1 thiết bị-28732.jpg?hash=1670468529",
+      "price": 900000,
+      "discount": 67,
+      "categoryID": 5,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 16,
+      "productName": "Nâng cấp Kaspersky Premium 1 năm (1 thiết bị)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/hung/new/Kaspersky 1pc-98634.png?hash=1651831814",
+      "price": 662000,
+      "discount": 71,
+      "categoryID": 6,
+      "view": 0,
+      "inventory": 0
+    },
+    {
+      "id": 17,
+      "productName": "Tài khoản học ngoại ngữ Busuu Premium Plus 1 Tháng",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Divine-Shop-Busuu-Premium-Plus-1-Thang-62667.jpg?hash=1658741722",
+      "price": 200000,
+      "discount": 92,
+      "categoryID": 7,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 18,
+      "productName": "Tài khoản Wondershare Filmora 12 (1 năm) - Hệ điều hành Windows",
+      "image": "https://cdn.divineshop.vn/image/catalog/Filmora 12 win-1nam-83016.jpg?hash=1672115168",
+      "price": 900000,
+      "discount": 78,
+      "categoryID": 7,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 19,
+      "productName": "Tài khoản IpvanishVPN  1 năm",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/hung/new/IpvanishVPN-92172.jpg?hash=1659021886",
+      "price": 900000,
+      "discount": 75,
+      "categoryID": 9,
+      "view": 0,
+      "inventory": 0
+    },
+    {
+      "id": 20,
+      "productName": "Tài khoản Skillshare premium 1 tháng",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Skillshare premium 1 thang-27130.jpg?hash=1678939135",
+      "price": 250000,
+      "discount": 90,
+      "categoryID": 10,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 21,
+      "productName": "Tài khoản học ngoại ngữ Memrise 1 năm",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Divine-Shop-Memrise-1-Nam-98141.jpg?hash=1658743050",
+      "price": 2300000,
+      "discount": 87,
+      "categoryID": 1,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 22,
+      "productName": "Tài khoản Lynda Premium vĩnh viễn",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh 1406/Lynda (LinkedIn Learning).png?hash=1623640222",
+      "price": 1500000,
+      "discount": 81,
+      "categoryID": 1,
+      "view": 0,
+      "inventory": 0
+    },
+    {
+      "id": 23,
+      "productName": "Tài khoản Skillshare premium 2 tháng",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Skillshare premium 2 month-56292.jpg?hash=1678939149",
+      "price": 320000,
+      "discount": 82,
+      "categoryID": 2,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 24,
+      "productName": "Gói nạp Data 500MB Viettel ( 30 ngày )",
+      "image": "https://cdn.divineshop.vn/image/catalog/image_compression/viettel.png?hash=1604888771",
+      "price": 20000,
+      "discount": 15,
+      "categoryID": 2,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 25,
+      "productName": "Nâng cấp Parallels Desktop 19 Standard Edition (Vĩnh Viễn)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Phi/pdvv-80113.jpg?hash=1693545981",
+      "price": 2400000,
+      "discount": 59,
+      "categoryID": 4,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 26,
+      "productName": "Tài khoản Windscribe VPN Pro (1 năm)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Windscribe VPN Pro-33495.jpg?hash=1675420617",
+      "price": 1600000,
+      "discount": 57,
+      "categoryID": 3,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 27,
+      "productName": "Tài khoản Wondershare Filmora 12 (1 năm) - Hệ điều hành Mac",
+      "image": "https://cdn.divineshop.vn/image/catalog/Filmora 12 mac-1nam-61924.jpg?hash=1672115158",
+      "price": 900000,
+      "discount": 78,
+      "categoryID": 6,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 28,
+      "productName": "Tài khoản học ngoại ngữ Busuu Premium Plus 1 năm",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh 1406/Busuu Premium Plus.png?hash=1623641387",
+      "price": 2190000,
+      "discount": 78,
+      "categoryID": 8,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 29,
+      "productName": "Peekaboo",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1048100/header.jpg",
+      "price": 620000,
+      "discount": 0,
+      "categoryID": 8,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 30,
+      "productName": "Máy massage mắt OKIA I-Master",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh/14.03.2022/Máy massage mắt (1)-47472.png?hash=1650868901",
+      "price": 4999000,
+      "discount": 0,
+      "categoryID": 9,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 31,
+      "productName": "PSN code 10$ (US)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh 1406/New/PSN 10 (1).png?hash=1624932927",
+      "price": 250000,
+      "discount": 0,
+      "categoryID": 10,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 32,
+      "productName": "Tài khoản Hotspot Shield VPN (1 năm)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Hotspot Shield VPN-66817.jpg?hash=1663982198",
+      "price": 2200000,
+      "discount": 89,
+      "categoryID": 6,
+      "view": 0,
+      "inventory": 0
+    },
+    {
+      "id": 33,
+      "productName": "PGC 2021 Bundle (Full pack đồ PGC2021 PUBG)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/PCG2021-13358.png?hash=1638855556",
+      "price": 4000000,
+      "discount": 0,
+      "categoryID": 5,
+      "view": 0,
+      "inventory": 0
+    },
+    {
+      "id": 34,
+      "productName": "Tài khoản QuillBot Premium (1 tháng)",
+      "image": "https://cdn.divineshop.vn/image/catalog/QuillBot Premium-28735.jpg?hash=1673422575",
+      "price": 250000,
+      "discount": 60,
+      "categoryID": 4,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 35,
+      "productName": "Tài khoản học Ngoại Ngữ Cambly ( 70 phút )",
+      "image": "https://cdn.divineshop.vn/image/catalog/Cambly 70-15808.jpg?hash=1689758817",
+      "price": 500000,
+      "discount": 80,
+      "categoryID": 2,
+      "view": 0,
+      "inventory": 0
+    },
+    {
+      "id": 36,
+      "productName": "Nâng cấp ứng dụng lập trình JetBrains All Products Pack (1 năm)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/JetBrains1-81956.jpg?hash=1671761607",
+      "price": 500000,
+      "discount": 80,
+      "categoryID": 1,
+      "view": 0,
+      "inventory": 0
+    },
+    {
+      "id": 37,
+      "productName": "The Escapists 2",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/641990/header.jpg",
+      "price": 4000000,
+      "discount": 75,
+      "categoryID": 1,
+      "view": 0,
+      "inventory": 50
+    },
+    {
+      "id": 38,
+      "productName": "Tài khoản Amazon Prime Video (4 tháng)",
+      "image": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Prime Video 4m-51014.jpg?hash=1680667743",
+      "price": 690000,
+      "discount": 78,
+      "categoryID": 2,
+      "view": 0,
+      "inventory": 50
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Giải trí",
+      "icon": "https://cdn.divineshop.vn/image/catalog/Anh/Icon svg/giaitri-25627.svg?hash=1640449820"
+    },
+    {
+      "id": 2,
+      "categoryName": "Làm việc",
+      "icon": "https://cdn.divineshop.vn/image/catalog/Anh/Icon svg/lamviec-71000.svg?hash=1640449820"
+    },
+    {
+      "id": 3,
+      "categoryName": "Học tập",
+      "icon": "https://cdn.divineshop.vn/image/catalog/Anh/Icon svg/hoctap-68990.svg?hash=1640449820"
+    },
+    {
+      "id": 4,
+      "categoryName": "Game Steam",
+      "icon": "https://cdn.divineshop.vn/image/catalog/Banner/Icon/Steam-66507.svg?hash=1640449899"
+    },
+    {
+      "id": 5,
+      "categoryName": "EA Games",
+      "icon": "https://cdn.divineshop.vn/image/catalog/Banner/Icon/Logo Origin-26150.svg?hash=1640449899"
+    },
+    {
+      "id": 6,
+      "categoryName": "Windown, Office",
+      "icon": "https://cdn.divineshop.vn/image/catalog/Banner/Icon/roblox2-83248.svg?hash=1649948527"
+    },
+    {
+      "id": 7,
+      "categoryName": "Google Drive",
+      "icon": "https://cdn.divineshop.vn/image/catalog/Banner/Icon/Xbox Logo-88261.svg?hash=1640449899"
+    },
+    {
+      "id": 8,
+      "categoryName": "Steam Wallet",
+      "icon": "https://cdn.divineshop.vn/image/catalog/Banner/Icon/Steam Wallet-41454.svg?hash=1640449899"
+    },
+    {
+      "id": 9,
+      "categoryName": "Gói Data Mobile",
+      "icon": "https://cdn.divineshop.vn/image/catalog/Banner/Icon/Signal-61321.svg?hash=1640449899"
+    },
+    {
+      "id": 10,
+      "categoryName": "Google Play, iTunes",
+      "icon": "https://cdn.divineshop.vn/image/catalog/Banner/Icon/Google Play-42608.svg?hash=1640449899"
+    }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "src": "https://cdn.divineshop.vn/image/catalog/Anh/Banner/học tập phát triển-95166-17706.png?hash=1659929879"
+    },
+    {
+      "id": 2,
+      "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/chatGPT-70878.jpg?hash=1681283148"
+    },
+    {
+      "id": 3,
+      "src": "https://cdn.divineshop.vn/image/catalog/Anh/Banner 14 thang 11/Banner main-1280x632-27477.png?hash=1689069871"
+    },
+    {
+      "id": 4,
+      "src": "https://cdn.divineshop.vn/image/catalog/Anh/24.12.21/tối ưu công việc-45178.png?hash=1640349471"
+    },
+    {
+      "id": 5,
+      "src": "https://cdn.divineshop.vn/image/catalog/Banner/banner Google One (3)-10567.png?hash=1658937523"
+    },
+    {
+      "id": 6,
+      "src": "https://cdn.divineshop.vn/image/catalog/Anh/14.03.2022/AutoDesk Main banner-89472.png?hash=1656637545"
+    },
+    {
+      "id": 7,
+      "src": "https://cdn.divineshop.vn/image/catalog/Anh/24.12.21/netflix-49596.png?hash=1640349471"
+    }
+  ],
+  "account": [
+    {
+      "id": 0,
+      "fullname": "Kan Kan",
+      "username": "kanisdev",
+      "password": "dinhcan2002",
+      "email": "caodinhcan10@gmail.com",
+      "phone": "0373405375",
+      "address": "Quảng Nam",
+      "avatar": "https://bloganchoi.com/wp-content/uploads/2022/12/1507-hinh-nen-luffy-gear-5-one-piece-cuc-ngau8-scaled.jpg",
+      "position": 1,
+      "money": 14949000
+    },
+    {
+      "id": 1,
+      "fullname": "Monkey D Luffy",
+      "username": "monkeydluffy",
+      "password": "dinhcan2002",
+      "email": "monkeydluffy@gmail.com",
+      "phone": "",
+      "address": "Biển",
+      "avatar": "https://bookvexe.vn/wp-content/uploads/2023/04/suu-tam-25-hinh-anh-dep-nhat-ve-avatar-luffy-cua-one-piece_6.jpg",
+      "position": 0,
+      "money": 0
+    },
+    {
+      "id": 2,
+      "fullname": "Zoro",
+      "username": "diemkieu2004",
+      "password": "123456",
+      "email": "diemkieu2004@gmail.com",
+      "phone": "",
+      "address": "",
+      "avatar": "https://cdn.divineshop.vn/image/catalog/icon/avatar-khach-hang-2-52544.png?hash=1649933269",
+      "position": 0,
+      "money": 0
+    }
+  ],
+  "order": [
+    {
+      "id": "583473",
+      "userID": 0,
+      "status": 1,
+      "anmount": 106000,
+      "transactionfree": 5300,
+      "method": 1,
+      "date": "2023-10-15",
+      "time": "22:11:26",
+      "email": "dinhcan.cntt@gmail.com"
+    },
+    {
+      "id": "794025",
+      "userID": 0,
+      "status": 0,
+      "anmount": 397000,
+      "transactionfree": 0,
+      "method": 0,
+      "date": "2023-10-15",
+      "time": "22:50:10",
+      "email": "caodinhcan10@gmail.com"
+    },
+    {
+      "id": "910726",
+      "userID": 2,
+      "status": 1,
+      "anmount": 747900,
+      "transactionfree": 37395,
+      "method": 1,
+      "date": "2023-10-18",
+      "time": "00:18:10",
+      "email": "diemkieu2004@gmail.com"
+    },
+    {
+      "id": "415200",
+      "userID": 1,
+      "status": 1,
+      "anmount": 717400,
+      "transactionfree": 35870,
+      "method": 1,
+      "date": "2023-10-19",
+      "time": "01:10:20",
+      "email": "monkeydluffy@gmail.com"
+    }
+  ],
+  "orderDetail": [
+    {
+      "id": 1,
+      "orderID": "583473",
+      "productID": 2,
+      "price": 25500,
+      "quantity": 2,
+      "subtotal": 51000
+    },
+    {
+      "id": 2,
+      "orderID": "583473",
+      "productID": 1,
+      "price": 55000,
+      "quantity": 1,
+      "subtotal": 55000
+    },
+    {
+      "id": 3,
+      "orderID": "794025",
+      "productID": 21,
+      "price": 299000,
+      "quantity": 1,
+      "subtotal": 299000
+    },
+    {
+      "id": 4,
+      "orderID": "794025",
+      "productID": 17,
+      "price": 16000,
+      "quantity": 3,
+      "subtotal": 48000
+    },
+    {
+      "id": 5,
+      "orderID": "794025",
+      "productID": 20,
+      "price": 25000,
+      "quantity": 2,
+      "subtotal": 50000
+    },
+    {
+      "id": 6,
+      "orderID": "910726",
+      "productID": 7,
+      "price": 288000,
+      "quantity": 1,
+      "subtotal": 288000
+    },
+    {
+      "id": 7,
+      "orderID": "910726",
+      "productID": 4,
+      "price": 257400,
+      "quantity": 1,
+      "subtotal": 257400
+    },
+    {
+      "id": 8,
+      "orderID": "910726",
+      "productID": 11,
+      "price": 202500,
+      "quantity": 1,
+      "subtotal": 202500
+    },
+    {
+      "id": 9,
+      "orderID": "415200",
+      "productID": 4,
+      "price": 257400,
+      "quantity": 1,
+      "subtotal": 257400
+    },
+    {
+      "id": 10,
+      "orderID": "415200",
+      "productID": 14,
+      "price": 460000,
+      "quantity": 1,
+      "subtotal": 460000
+    }
+  ],
+  "favorite": [
+    {
+      "id": "3",
+      "userID": "0",
+      "productID": "3"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1697540391836esjvhi5l4",
+      "userID": 1,
+      "productID": "2",
+      "date": "2023-10-17",
+      "time": "17:59:51",
+      "content": "Tôi là người sẽ trở thành vua hải tặc"
+    },
+    {
+      "id": "1697556727521xnfbed1x8",
+      "userID": 0,
+      "productID": "2",
+      "date": "2023-10-17",
+      "time": "22:32:07",
+      "content": "san pham tuyet voi"
+    }
+  ],
+  "repComments": [
+    {
+      "id": "16975550149013oe0usns7",
+      "commentID": "1697540391836esjvhi5l4",
+      "userID": 0,
+      "productID": "2",
+      "date": "2023-10-17",
+      "time": "22:03:34",
+      "content": "@Monkey D Luffy ok"
+    }
+  ]
+}

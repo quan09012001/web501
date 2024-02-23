@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="../public/css/admin.css" />
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <title>Admin dashboard</title>
+  </head>
+  <body>
+    <div class="admin-layout">
+      <!-- Sidebar -->
+      <aside class="admin-aside">
+        <div class="admin-navbar">
+          <div class="navbar">
+            <a class="navbar-logo">
+              <img
+                src="https://cdn.divineshop.vn/static/b1402e84a947ed36cebe9799e47f61c2.svg"
+                alt=""
+                style="width: 49px; height: 49px"
+              />
+              <h4>Account Shop</h4>
+            </a>
+            <div class="userFixed">
+              <div>
+                <div class="userFixed-avatar">
+                  <img
+                    src="http://localhost/mvc/public/images/uploads/hinh-nen-luffy-gear-5.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3>Kan Kan</h3>
+                  <span>Admin</span>
+                </div>
+              </div>
+              <a href="http://localhost/mvc"
+                ><i class="fas fa-sign-out-alt fa-rotate-180"></i
+              ></a>
+            </div>
+            <ul class="navbar-list">
+              <div class="navbar-group">
+                <a class="navbar-link bg-active active" id="Dashboard">
+                  <div class="navbar-flex">
+                    <i class="fas fa-tachometer-alt"></i>
+                    Bảng điều khiển
+                  </div>
+                </a>
+              </div>
+              <div class="navbar-group">
+                <a class="navbar-link">
+                  <div class="navbar-flex">
+                    <i class="fas fa-th-large"></i>
+                    Danh mục
+                  </div>
+                  <i class="fas fa-chevron-right" style="font-size: 13px"></i>
+                </a>
+                <ul class="navbar-submenu">
+                  <li>
+                    <a id="CategoryAdd"
+                      ><i class="fas fa-circle" style="font-size: 6px"></i> Thêm
+                      danh mục</a
+                    >
+                  </li>
+                  <li>
+                    <a id="CategoryList"
+                      ><i class="fas fa-circle" style="font-size: 6px"></i> Danh
+                      sách danh mục</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="navbar-group">
+                <a class="navbar-link">
+                  <div class="navbar-flex">
+                    <i class="fas fa-archive"></i>
+                    Sản phẩm
+                  </div>
+                  <i class="fas fa-chevron-right" style="font-size: 13px"></i>
+                </a>
+                <ul class="navbar-submenu">
+                  <li>
+                    <a id="ProductAdd"
+                      ><i class="fas fa-circle" style="font-size: 6px"></i> Thêm
+                      sản phẩm</a
+                    >
+                  </li>
+                  <li>
+                    <a id="ProductList"
+                      ><i class="fas fa-circle" style="font-size: 6px"></i> Danh
+                      sách sản phẩm</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="navbar-group">
+                <a class="navbar-link">
+                  <div class="navbar-flex">
+                    <i class="fas fa-user"></i>
+                    Tài khoản
+                  </div>
+                  <i class="fas fa-chevron-right" style="font-size: 13px"></i>
+                </a>
+                <ul class="navbar-submenu">
+                  <li>
+                    <a id="AccountAdd"
+                      ><i class="fas fa-circle" style="font-size: 6px"></i> Thêm
+                      người dùng</a
+                    >
+                  </li>
+                  <li>
+                    <a id="AccountList"
+                      ><i class="fas fa-circle" style="font-size: 6px"></i> Danh
+                      sách người dùng</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="navbar-group">
+                <a class="navbar-link" id="Order">
+                  <div class="navbar-flex">
+                    <i class="fas fa-shopping-cart"></i>
+                    Đơn hàng
+                  </div>
+                </a>
+              </div>
+              <div class="navbar-group">
+                <a class="navbar-link">
+                  <div class="navbar-flex">
+                    <i class="fas fa-newspaper"></i>
+                    Bài viết
+                  </div>
+                </a>
+              </div>
+              <div class="navbar-group" id="Comment">
+                <a class="navbar-link">
+                  <div class="navbar-flex">
+                    <i class="fas fa-comment"></i>
+                    Bình luận
+                  </div>
+                </a>
+              </div>
+              <div class="navbar-group">
+                <a class="navbar-link" id="Statistical">
+                  <div class="navbar-flex">
+                    <i class="fas fa-table"></i>
+                    Thống kê
+                  </div>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      <!-- Content -->
+      <article class="admin-content">
+        <!-- Navi -->
+        <nav>
+          <div class="nav">
+            <div class="nav-left">
+              <div class="nav-bd">
+                <i class="fas fa-bars"></i>
+              </div>
+              <div class="nav-search">
+                <input type="text" placeholder="Search for anything" />
+              </div>
+            </div>
+            <div class="nav-right">
+              <div class="nav-icons">
+                <a href="#!" class="nav-icon">
+                  <ion-icon
+                    name="settings-outline"
+                    role="img"
+                    class="md hydrated"
+                  ></ion-icon>
+                </a>
+                <a href="#!" class="nav-icon">
+                  <ion-icon
+                    name="cube-outline"
+                    role="img"
+                    class="md hydrated"
+                  ></ion-icon>
+                </a>
+                <a href="#!" class="nav-icon">
+                  <ion-icon
+                    name="planet-outline"
+                    role="img"
+                    class="md hydrated"
+                  ></ion-icon>
+                </a>
+                <a href="#!" class="nav-icon">
+                  <ion-icon
+                    name="notifications-outline"
+                    role="img"
+                    class="md hydrated"
+                  ></ion-icon>
+                </a>
+                <a href="#!" class="nav-icon">
+                  <div class="img">
+                    <img
+                      src="http://localhost/mvc/public/images/uploads/hinh-nen-luffy-gear-5.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Load Content -->
+        <main id="main-content">
+          <div class="dashboard">
+            <div class="dashboard-statistical">
+              <div class="dashboard-box">
+                <div class="l">
+                  <h2>28</h2>
+                  <span>Số lượng sản phẩm</span>
+                </div>
+                <div class="r">
+                  <i class="fas fa-box-open"></i>
+                </div>
+              </div>
+              <div class="dashboard-box">
+                <div class="l">
+                  <h2>6</h2>
+                  <span>Khách hàng</span>
+                </div>
+                <div class="r">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+              <div class="dashboard-box">
+                <div class="l">
+                  <h2>6</h2>
+                  <span>Đơn hàng</span>
+                </div>
+                <div class="r">
+                  <i class="fab fa-shopify"></i>
+                </div>
+              </div>
+              <div class="dashboard-box">
+                <div class="l">
+                  <h2 class="l">1.258.237đ</h2>
+                  <span>Tồng doanh thu</span>
+                </div>
+                <div class="r">
+                  <i class="far fa-money-bill-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </article>
+      <!-- Modal -->
+      <div class="modal-confirm">
+        <div class="modal-title">Thông báo !</div>
+        <div class="modal-contentConfirm"></div>
+        <div class="modal-btn">
+          <a class="modal-link-confirm">Xác nhận</a>
+          <a class="modal-link-cancel">Hủy bỏ</a>
+        </div>
+      </div>
+      <div id="alert">
+        <div id="alert-svg">
+          <svg
+            class="od Cb ib Yb be"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+            ></path>
+          </svg>
+        </div>
+        <div id="alert-content"></div>
+      </div>
+      <div class="modal-form">
+        <div class="modal-close">
+          <ion-icon
+            name="close-outline"
+            role="img"
+            class="md hydrated"
+          ></ion-icon>
+        </div>
+        <div class="modal-body"></div>
+      </div>
+    </div>
+  </body>
+</html>
